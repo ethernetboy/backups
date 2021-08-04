@@ -1,0 +1,42 @@
+switch>enable
+Password: 
+switch#
+switch#term len 0
+switch#sh run
+Building configuration...
+
+Current configuration : 388 bytes
+version 12.1
+!
+hostname switch
+!
+!
+vlan 1
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+!
+interface FastEthernet0/6
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+end
+
+switch#

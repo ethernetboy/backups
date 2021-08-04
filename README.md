@@ -36,8 +36,10 @@ Para o correto armazenamento dos backups é necessário que tenhamos a estrutura
 
 Para que ocorra a comunicação via Git, necessitamos adicionar dentro do diretório backupsw os repositório remoto, isso pode ser feito através dos comandos:
 
-- git init
-- git remote add origin <url_do_git_usando_ssh>
+```bash 
+git init
+git remote add origin <url_do_git_usando_ssh>
+```
 
 *Toda a configuração foi feita com base em autentição com chaves então para o backup ser realizado no GIT devemos colocar a chave (privada) configurada préviamente no GIT. O nome da chave deve ser: id_rsa
 

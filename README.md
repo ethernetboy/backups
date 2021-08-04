@@ -40,7 +40,7 @@ Para que ocorra a comunicação via Git, necessitamos adicionar dentro do diret�
 
 Para a execução do script necessitamos executar o comando abaixo:
 ```bash
-$ docker run -it -v /home/docker/backupsw/:/var/backupsw/ backup
+$ docker run -it -v /home/user/backupsw/:/var/backupsw/ backup
 ```
 
 #### Futuras melhorias

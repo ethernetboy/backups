@@ -18,7 +18,7 @@ Para a execução do script é necessário a utilização do docker, que pode se
 
 Todos os módulos necessários para a execução do projeto instalados a partir do arquivo `requirements.txt`.
 
-#### Montando a imagem docker
+#### Criando a imagem docker
 
 Dentro do diretório do projeto execute:
 

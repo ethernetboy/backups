@@ -30,7 +30,9 @@ $ docker build -t backup .
 ### Diretórios Locais
 
 Para o correto armazenamento dos backups é necessário que tenhamos a estrutura de diretórios abaixo:
-` /home/user/backupsw/sw_ip`
+` /home/user/backupsw/<ip>`
+
+* A variável <ip> deve ser substituída pelo ip do switch. Ex: 10.10.10.1
 
 #### Configurações Requeridas
 

@@ -43,7 +43,7 @@ $ git init
 $ git remote add origin <url_do_git_usando_ssh>
 ```
 
-*Toda a configuração foi feita com base em autentição com chaves então para o backup ser realizado no GIT devemos colocar a chave (privada) configurada préviamente no GIT. O nome da chave deve ser: id_rsa
+* Toda a configuração foi feita com base em autentição com chaves então para o backup ser realizado no GIT devemos colocar a chave (privada) configurada préviamente no GIT. O nome da chave deve ser: id_rsa
 
 #### Executando o script via docker
 
